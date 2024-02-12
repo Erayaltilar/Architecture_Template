@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Ana Renkler -->
+    <color name="colorPrimary">#2196F3</color> <!-- Mavi -->
+    <color name="colorPrimaryDark">#1565C0</color> <!-- Mavi, daha koyu ton -->
+    <color name="colorAccent">#FF4081</color> <!-- Vurgu Rengi -->
+
+    <!-- Arka Plan Renkleri -->
+    <color name="backgroundColor">#C5CAE9</color> <!-- Pastel Mavi Tonu -->
+
+    <!-- Metin Renkleri -->
+    <color name="textColorPrimary">#212121</color> <!-- Siyah veya koyu gri -->
+
+
+</resources>
