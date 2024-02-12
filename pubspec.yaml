@@ -21,10 +21,6 @@ dependencies:
   # Network
   vexana: ^3.5.4
 
-  # Config
-  json_annotation: ^4.8.1
-  envied: ^0.5.3
-
   easy_localization: ^3.0.3
 
   # Utility
@@ -32,17 +28,19 @@ dependencies:
   logger: ^2.0.2+1
   kartal: ^3.5.0
 
-# dependency_overrides:
+  gen:
+    path: module/gen
 
+  widgets:
+    path: module/widgets
+
+# dependency_overrides:
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   very_good_analysis: ^5.1.0
-  build_runner: ^2.4.8
   flutter_launcher_icons: ^0.13.1
-  envied_generator: ^0.5.3
-  flutter_gen_runner: ^5.4.0
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -55,10 +53,6 @@ flutter:
 
   assets:
     - assets/translations/
-
-flutter_gen:
-  enabled: false
-  output: lib/product/generated/
 
   # fonts:
   #   - family: Schyler

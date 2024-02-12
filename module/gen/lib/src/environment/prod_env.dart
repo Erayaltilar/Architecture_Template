@@ -1,5 +1,5 @@
-import 'package:architecture_template/product/init/config/application_configuration.dart';
 import 'package:envied/envied.dart';
+import 'package:gen/src/environment/app_configuration.dart';
 
 part 'prod_env.g.dart';
 
